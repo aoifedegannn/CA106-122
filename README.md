@@ -1,4 +1,5 @@
 # CA106-122
+* make sure you lay your files out the same way I have so that the layout is tidy
 * so the only links that work right now are obviously my ones because the your pages don’t exist yet so that’s grand
 * my idea is that as you can see the home page and my gymnastics page pretty much are the same layout except my page has the extra navigation bar for my own sub home pages
 * i think it makes sense for us all to have the same things in our individual nav bars so i have examples on my page we can leave it at that or change if we want
