@@ -1,0 +1,137 @@
+/* These are some suggested groupings for your stylesheet... */
+
+
+
+/* element styling (e.g. standard p, h1, h2, a, etc) */
+h1 {
+font-family: 'Nova Mono', monospace;
+	font-size: 90px;
+	text-align: center;
+}
+
+h2 {
+font-family: 'Nova Mono', monospace;
+	font-size: 45px;
+	text-align: centre;
+}
+
+
+h3 {
+	font-size: 50px;
+	text-align: center;
+}
+
+h4 {	
+	font-size: 35px;
+	color: black;
+}
+/* flexible content images code */
+
+
+
+/* navigation styles */
+
+.page-nav {
+	font-size: 25px;
+  background-color: whitesmoke;
+  border: 15px outset grey ;
+  margin: 25px 50px 75px;
+  padding: 20px;
+  flex: 100%;  
+  display: flex;
+}
+
+nav ul {
+  padding: 0;
+  list-style-type: none;
+  margin: 0px;
+  flex: 2;
+  vertical-align: middle;
+  display: flex;
+}
+
+nav li {
+  display: inline;
+  text-align: center;
+  flex: 1;
+}
+
+.page-nav li a {
+	display: block;
+  color: #000;
+  text-decoration: none;
+}
+
+.page-nav li a:hover {
+  background-color: grey ;
+  color: white;
+}
+/* page header styles*/
+
+
+/* main layout */
+body {
+	background-color: Gainsboro;
+}
+
+.container-content {
+	background-color: whitesmoke;
+	padding: 15px;
+	border: 10px outset grey;
+	margin: 20px;
+}
+
+.image-list {
+	display: flex;
+	justify-content: space-between;
+}
+.image-content {
+  position: relative;
+  width: 200px;
+}
+
+
+
+.image {
+  display: block;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  width: 200px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: grey;
+  overflow: hidden;
+  height: 0;
+  transition: .5s ease;
+}
+
+/* https://www.w3schools.com/css/tryit.asp?filename=trycss_css_image_overlay_slidebottom was used for overlay inspiration */ 
+
+.an-image:hover .overlay {
+  height: 100%;
+  cursor: pointer;
+}
+
+.text { 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+/* background colours for sections */
+
+
+/* form styling */
+
+
+/* footer styling */
+
+	
