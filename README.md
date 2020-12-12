@@ -7,3 +7,5 @@
 * and also as you can see the contact form page is the same colour scheme as the home page, i did this because none of us “own” these pages so thought it was nice to keep them neutral
 * and also when add your content can everyone talk about women in sport too so the page is inclusive
 * we can change the title and stuff haha i couldn’t think of anything else, if you guys have anything you’d like me to ad in the little home page description box just let me know :)
+
+***** putting work together on Monday the 14th of December ****
