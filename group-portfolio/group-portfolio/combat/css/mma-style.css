@@ -1,0 +1,120 @@
+/* These are some suggested groupings for your stylesheet... */
+
+
+
+/* element styling (e.g. standard p, h1, h2, a, etc) */
+h1 {
+font-family: 'Courier New', monospace;
+  font-size: 90px;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+font-family: 'Courier New', monospace;
+  font-size: 43px;
+  text-align: left;
+  color: white;
+}
+
+
+/* flexible content images code */
+
+
+/* navigation styles */
+
+.page-nav {
+  font-size: 25px;
+  background-color: #f8fefc;
+  border: 15px outset #9CC3D5FF ;
+  padding: 20px;
+  flex: 100%;  
+  display: flex;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.page-side-nav {
+  margin: 10px 0px;
+  text-align: left;
+}
+.page-side-nav ul {
+  background-color: #f8fefc;
+  border: 5px outset #9CC3D5FF;
+  margin: 10px;
+  padding: 20px;
+  list-style-type: none;
+  
+}
+
+.page-side-nav li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+.page-side-nav li a:hover {
+  background-color:#0081f0 ;
+  color: white;
+}
+ 
+ .page-nav ul {
+  padding: 0;
+  list-style-type: none;
+  margin: 0px;
+  flex: 2;
+  vertical-align: middle;
+  display: flex;
+}
+
+.page-nav li {
+  display: inline;
+  text-align: center;
+  flex: 1;
+}
+
+.page-nav li a {
+  display: block;
+  color: #000;
+  text-decoration: none;
+}
+.page-nav li a:hover {
+  background-color:#0081f0 ;
+  color: white;
+}
+/* page header styles*/
+
+.header-content {
+  font-size: 3 0px;
+  text-align: center;
+  color: white;
+}
+
+/* main layout */
+body {
+  background-color: #0081f0;
+  margin: 0px 50px; 
+}
+
+.column {
+  display: flex;
+}
+
+.content {
+  border: 10px dashed #9CC3D5FF;
+  padding: 15px;
+  margin: 60px 20px 20px 10px;
+  color: white;
+}
+/* styling for the section content */
+
+
+/* background colours for sections */
+
+
+/* form styling */
+
+
+/* footer styling */

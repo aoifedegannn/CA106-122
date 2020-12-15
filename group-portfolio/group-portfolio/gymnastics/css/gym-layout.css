@@ -1,0 +1,157 @@
+
+/* element styling (e.g. standard p, h1, h2, a, etc) */
+h1 {
+font-family: 'Nova Mono', monospace;
+	font-size: 90px;
+	text-align: center;
+}
+
+h2 {
+font-family: 'Nova Mono', monospace;
+	font-size: 43px;
+	text-align: left;
+}
+
+/* navigation bar styles */
+
+.page-nav {
+	font-size: 25px;
+  background-color: #ffe6e6;
+  border: 15px outset #ff6666 ;
+  padding: 20px;
+  flex: 100%;  
+  display: flex;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.page-side-nav {
+	margin: 10px 0px;
+	text-align: left;
+}
+.page-side-nav ul {
+	background-color: #ffe6e6;
+	border: 5px outset #ff6666;
+	margin: 10px;
+	padding: 20px;
+  list-style-type: none;
+  
+}
+
+.page-side-nav li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+
+.page-side-nav li a:hover {
+  background-color:#ff6666 ;
+  color: white;
+}
+ 
+ .page-nav ul {
+  padding: 0;
+  list-style-type: none;
+  margin: 0px;
+  flex: 2;
+  vertical-align: middle;
+  display: flex;
+}
+
+.page-nav li {
+  display: inline;
+  text-align: center;
+  flex: 1;
+}
+
+.page-nav li a {
+	display: block;
+  color: #000;
+  text-decoration: none;
+}
+.page-nav li a:hover {
+  background-color:#ff6666 ;
+  color: white;
+}
+
+/* page header styles*/
+
+.header-content {
+	font-size: 3 0px;
+	text-align: center;
+}
+
+/* main layout */
+
+body {
+	background-color: #ffb3b3;
+	margin: 0px 50px;
+}
+
+.column {
+	display: flex;
+}
+
+.container-content {
+	margin-left: 20px;
+}
+.content {
+	background: #ffe6e6;
+	border: 10px dotted #ff6666;
+	padding: 20px;
+}
+
+/* styling for the image content */
+
+.an-image {
+  margin: 0px 0px 25px 0px;
+  flex: 100%; 
+  display: flex;
+ }
+
+.image-caption {
+	float: left;
+	font-size: 25px;
+	padding: 20px 20px 20px 20px;
+}
+
+/* references */
+
+.references {
+	font-size: 17px;
+	font-style: italic;
+}
+
+
+/* table */
+/* I based my table from this example and made alterations so that it would sut my site https://www.w3schools.com/css/tryit.asp?filename=trycss_table_fancy */
+
+#olympic-medals {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 15px;
+}
+
+#olympic-medals td, #olympic-medals th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#olympic-medals tr:nth-child(even){background-color: #ffe6e6;}
+
+#olympic-medals tr:hover {background-color: #ddd;}
+
+#olympic-medals th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #ff6666;
+  color: white;
+}
+
+/* footer styling */
+
+	
